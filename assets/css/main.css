@@ -1,3 +1,47 @@
-/*
- * Estilos de tu proyecto
- */
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico|Sedgwick+Ave+Display');
+ *{
+ 	outline: 1px solid red;
+ }
+ body {
+	  padding: 0;
+	  margin: 0 auto;
+	  line-height: 1.71429;
+	  background-color: #D4F9E3;
+	  font-family: 'Open Sans', sans-serif;
+}
+.menu{
+	display: flex; /*se pocisiona horizontalmente*/
+	overflow: hidden; /*no se dibujan barras*/
+	background-color: #6E6A6A;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#text-start{
+	color: white;
+	width: 30%;
+	padding-left: 5%;
+}
+a:hover{
+	color: #88F31F;
+}
+a{
+	text-decoration: none;
+	margin: 10px;
+	color: white;
+	display: flex;
+	align-items: center;
+	position: relative;
+	left: 700px;
+	padding: 5px;
+}
+/*================================
+=            segundo (hombrecito)            =
+================================*/
+#home{
+	background-color: #41E2CD;
+}
+
+
+/*=====  End of segundo (hombrecito)  ======*/
