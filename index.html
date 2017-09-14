@@ -2,23 +2,36 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Freelancer</title>
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
+	<!-- Latest compiled and minified CSS -->
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
 	<!--============================
 	=            header            =
 	=============================-->	
-	<header>
-		<nav class="menu">
-		<h1 id="text-start">START BOOTSTRAP</h1>
-		<a href="#" class="text-uppercase link">PORTAFOLIO</a>
-		<a href="#" class="text-uppercase link">ABOUT</a>
-		<a href="#" class="text-uppercase link">CONTACT</a>
-		<div class="logo-container">
+	<header >
+		<nav>
+			<div class="row">
+			   <div class="col-md-6">
+			     <h1 id="logo-boot" class="text-start">START BOOTSTRAP</h1>
+			   </div>
+			   <div class="col-md-6"> 
+			   	 <ul class="list-inline text-right hidden-sm hidden-xs">
+					<li><a href="#">PORTAFOLIO</a> </li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			   </div>	   
+			</div>
+		
+		<!-- <div class="logo-container">
 			<img src="assets/images/logo-r.png" class="logo" width="70">
-		</div>
+		</div> -->
 	</nav>
 	</header>
 	
@@ -28,20 +41,183 @@
 	<!--================================
 	=            section #1            =
 	=================================-->
-	<section>
-		<div id="home">
+	<section id="home">
+	  <div class="row">
+	  	<div class="img-const col-md-12 text-center">
 			<img id="img-1" src="assets/images/profile.png">
+	    </div>
+	   </div>
+	   
+	 <div class="row">
+		<div id="text-1" class="col-md-12 text-center">
 			<h1>START BOOTSTRAP</h1>
-			<h5 class="text-uppercase text-home mb-0">Web Developer - Graphic Artist - User Experience Designer</h5>
-		</div>
-		
+			<div class="linea-1"></div>
+			<div class="linea-2"></div>
+			<h5  class="text-uppercase text-home mb-0">Web Developer - Graphic Artist - User Experience Designer</h5>
+		</div>		
+	  </div>
 	</section>
-	
-	
 	<!--====  End of section #1  ====-->
 	
 
-	<!-- Enlaza aquí tu archivo JS -->
+<!--================================
+=            SECTION #2            =
+=================================-->
+	<section>
+		<div class="row">
+		  <div class="col-sm-6 col-md-12 text-center">
+			<h1>PORTAFOLIO</h1>
+		  </div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="thumbnail">
+				<img src="assets/images/portfolio/cabin.png" width="300"  alt="cabin">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="thumbnail">
+				<img src="assets/images/portfolio/cake.png" width="300"  alt="cabin">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="thumbnail">
+				<img src="assets/images/portfolio/circus.png" width="300"  alt="cabin">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="thumbnail">
+				<img src="assets/images/portfolio/game.png" width="300"  alt="cabin">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="thumbnail">
+				<img src="assets/images/portfolio/safe.png" width="300"  alt="cabin">
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<a href="#" class="thumbnail">
+				<img src="assets/images/portfolio/submarine.png" width="300"  >
+				</a>
+			</div>
+	</section>
+<!--====  End of SECTION #2  ====-->
+
+<!--================================
+=            SECTION #3            =
+=================================-->
+	<section id="section-3">
+		<div class="row">
+			<div class="col-sm-6 col-md-12 text-center">
+				<h1>
+					ABOUT
+				</h1>
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+					</div>
+					<div class="col-sm-6 col-md-3 text-left">
+						Lorem ipsum dolor sit amet,  consectetur adipisicing<br> elit. Suscipit provident, quasi alias<br>  
+						nobis fugiat, assumenda. Nesciunt exercitationem,<br> minus fugit optio mollitia , esse maxime et eum<br> placeat tempore modi laboriosam.
+					</div>
+					<div class="col-sm-6 col-md-3 text-left">
+						Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Quam libero eveniet officia? Reiciendis hic<br>blanditiis assumenda minima, omnis provident?<br> Veritatis, commodi odit eaque fugit non magnam<br>  praesentium quod sunt doloremque.
+					</div>
+					<div class="col-sm-6 col-md-3">
+					</div>
+				</div>
+				<button>Download Theme</button>
+		</div>
+	</section>
+
+
+<!--====  End of SECTION #3  ====-->
+
+
+<!--================================
+=            SECTION #4            =
+=================================-->
+	<section>
+	  <div class="row">
+	  	<div class="col-sm-6 col-md-12 text-center">	  	
+	  	  <h1>CONTACT ME</h1>
+		</div>
+	  </div>
+	  <div class="row">
+	  	<div class="col-sm-6 col-md-4 text-left">
+	  	</div>
+	  	<div class="col-sm-6 col-md-4 text-left">
+	  	<form role="form">
+	  		<div class="form-group">
+				<input type="text" class="form-control" id="ejemplo_name_1"
+				placeholder="Name">
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" id="ejemplo_email_1"
+				placeholder="Introduce tu email">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" id="ejemplo_password_1"
+				placeholder="Contraseña">
+			</div>
+			<textarea class="form-control" rows="5"></textarea>
+			<div class="form-group">
+				<label for="ejemplo_archivo_1">Adjuntar un archivo</label>
+				<input type="file" id="ejemplo_archivo_1">
+				<p class="help-block">Ejemplo de texto de ayuda.</p>
+			</div>
+			<div class="checkbox">
+				<label>
+				<input type="checkbox"> Activa esta casilla
+				</label>
+			</div>
+			<button type="button" class="btn btn-success">Enviar</button>
+		</form>
+	  	</div>
+	  	<div class="col-sm-6 col-md-4 text-left">
+	  	</div>
+	  </div>
+		
+	</section>
+
+
+<!--====  End of SECTION #4  ====-->
+
+<!--============================
+=            FOOTER            =
+=============================-->
+  <footer>
+  	<div class="row">
+  		<div class="col-sm-6 col-md-4 text-center">
+  			<h2>LOCATION</h2>
+  			<p>3481 Meirose Place<br>Beverly,CA 90210</p>
+	  	</div>
+	  	<div class="col-sm-6 col-md-4 text-center">
+	  		<h2>AROUND THE WEB</h2>
+	  		<span></span>
+	  		<span></span>
+	  		<span></span>
+	  		<span></span>
+	  		<span></span>
+	  	</div>
+	  	<div class="col-sm-6 col-md-4 text-center">
+	  		<h2>ABOUT FREELANCER</h2>
+	  		<p>Freelance es a free to use, open source<br>Bootstrap theme created by Start<br>Bootstrap.</p>
+	  	</div>
+  	</div>
+  	<div class="row">
+  		<div class="col-sm-6 col-md-12 text-left">
+  		  <p>Copyright @ Your Website 2016</p>
+  		</div>
+  	</div>
+  </footer>
+
+
+<!--====  End of FOOTER  ====-->
+
+
+	<!-- Enlaza aquí tu <arc>	<sectio</arc>hivo JS -->
 	
 </body>
 </html>

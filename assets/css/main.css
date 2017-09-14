@@ -4,40 +4,32 @@
 */ }
  body {
 	  padding: 0;
-	  margin: 0 auto;
+	  margin: 0;
 	  line-height: 1.71429;
 	  background-color: #D4F9E3;
 	  font-family: 'Open Sans', sans-serif;
 	  width: 100%;
 }
-nav.menu{
-	display: flex; /*se pocisiona horizontalmente*/
-	overflow: hidden; /*no se dibujan barras*/
-	background-color: #6E6A6A;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+#logo-boot{
+	margin-left: 50px;
 }
-#text-start{
+header nav{
+	background-color: #464651;
 	color: white;
-	width: 30%;
-	padding-left: 5%;
+	width: 100%;
+
 }
-a:hover{
-	color: #88F31F;
+header nav ul {
+	line-height: 70px;
+	padding-right: 80px;
 }
 a{
-	text-decoration: none;
-	margin: 10px;
 	color: white;
-	display: flex;
-	justify-content: right;
-	align-items: center;
-	/*position: relative;
-	left: 700px;
-	padding: 5px;*/
 }
+a:hover{
+	color: #41E2CD;
+}
+
 
 /*================================
 =            segundo (hombrecito)            =
@@ -45,18 +37,49 @@ a{
 #home{
 	background-color: #41E2CD;
 	width: 100%;
-	height: 800px;
-	display: inline-block;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	height: 600px;
+	position: relative;
+	color: white;
 }
-#img1{
-	
-	
+
+#img-1{
+	position: relative;
+	top: 150px;
+}
+.linea-1{
+	width: 100px;
+	height: 5px;
+	background-color: white;
+}
+.linea-2{
+	width: 100px;
+	height: 5px;
+	background-color: white;
 }
 #text-1{
+	position: relative;
+	top: 150px;
 
 }
 
 /*=====  End of segundo (hombrecito)  ======*/
+
+/*==================================
+=            SECTION #3            =
+==================================*/
+#section-3{
+	background-color: #7AF9D7;
+}
+
+
+/*=====  End of SECTION #3  ======*/
+
+/*==============================
+=            FOOTER            =
+==============================*/
+footer{
+	background-color: #676262;
+}
+
+
+/*=====  End of FOOTER  ======*/
